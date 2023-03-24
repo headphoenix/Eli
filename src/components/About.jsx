@@ -20,19 +20,13 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-white"
       >
-        <span className="font-extrabold text-white">Elimol</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
+        <span className="font-extrabold text-white">Elimol</span> is a premier event venue company dedicated to providing exceptional locations and services for all types of events. {' '}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+        With a range of event spaces including The Dome, a versatile multipurpose area, a fully equipped conference room, and a picturesque garden, we offer options for every occasion. 
         </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        Our team is committed to ensuring a seamless and enjoyable event experience for our clients and their guests. {' '}
+        <span className="font-extrabold text-white">At Elimol,</span> we believe that every event is unique and should reflect the individual style and vision of the host,{' '}
+        which is why we go above and beyond to make your event truly special.
       </motion.p>
 
       <motion.img
