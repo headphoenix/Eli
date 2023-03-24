@@ -43,7 +43,7 @@ const Hero = () => {
               <span className='md:text-3xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-gray-500'>
               <Typewriter
             words={['Bachelorrette Party', 'Birthday Party', 'Wedding', 'Conferences', 'Naming Ceremony', 'Anniversary', 'Reception']}
-            loop={5}
+            loop={0}
             cursor={false}
             typeSpeed={70}
             deleteSpeed={50}
