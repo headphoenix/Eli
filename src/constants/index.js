@@ -195,3 +195,89 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const exploreWorlds = [
+  {
+    id: 'world-1',
+    imgUrl: '/src/public/planet-01.png',
+    title: 'The Dome',
+  },
+  {
+    id: 'world-2',
+    imgUrl: '/src/public/planet-02.png',
+    title: 'The Garden',
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/src/public/planet-03.png',
+    title: 'The Conference Room',
+  },
+];
+
+export const startingFeatures = [
+  'A multipurpose event space accommodating up to 200 guests',
+  'Experience comfort in The Dome\'s air-conditioned ambiance.',
+  'A multipurpose event space accommodating up to 200 guests.',
+];
+
+export const endingFeatures = [
+  'Host your business meetings and seminars in our well-equipped conference room.',
+  'Stay cool and focused with full air conditioning in our conference room.',
+  'Accommodate up to 100 guests with a projector and PA system for your event in our conference room.',
+];
+
+
+export const newFeatures = [
+  {
+    imgUrl: '/vrpano.svg',
+    title: 'The Great Outdoors',
+    subtitle:
+        'Host an outdoor event surrounded by natural beauty in our airy garden space.',
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'More Space',
+    subtitle:
+        'Accommodate up to 150 guests comfortably in our garden space.',
+  },
+];
+
+export const insights = [
+  {
+    imgUrl: '/planet-06.png',
+    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    subtitle:
+        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+  },
+  {
+    imgUrl: '/planet-07.png',
+    title: '7 tips to easily master the madness of the Metaverse',
+    subtitle:
+        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+  },
+  {
+    imgUrl: '/planet-08.png',
+    title: 'With one platform you can explore the whole world virtually',
+    subtitle:
+        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+  },
+];
+
+export const socials = [
+  {
+    name: 'twitter',
+    url: '/twitter.svg',
+  },
+  {
+    name: 'linkedin',
+    url: '/linkedin.svg',
+  },
+  {
+    name: 'instagram',
+    url: '/instagram.svg',
+  },
+  {
+    name: 'facebook',
+    url: '/facebook.svg',
+  },
+];

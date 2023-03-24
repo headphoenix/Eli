@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { motion } from 'framer-motion';
+import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,6 +11,12 @@ const Navbar = () => {
   };
 
   return (
+    <motion.nav
+    variants={navVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`mb-20`}
+  >
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>ELIMOL.</h1>
       <ul className='hidden md:flex'>
@@ -30,6 +38,7 @@ const Navbar = () => {
           <li className='p-4'>Contact</li>
       </ul>
     </div>
+    </motion.nav>
   );
 };
 
