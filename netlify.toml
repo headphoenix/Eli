@@ -3,4 +3,4 @@
   publish ="build"
 
 [build.environment]
-  NODE_OPTIONS = "--legacy-peer-deps"
+  NODE_OPTIONS = "--force"
