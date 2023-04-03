@@ -1,15 +1,21 @@
 import React from 'react'
 import "../index.css"
+import facebookLogo from '../logos/facebook.png';
+import instagramLogo from '../logos/instagram.png';
+import snapchatLogo from '../logos/snapchat.png';
+import twitterLogo from '../logos/twitter.png';
+
 
 const Wave = () => {
 return (
   <div className='mt-auto'>
-  <div className="flex justify-center align-center mx-auto gap-20 z-10 relative" style={{ top: '50px' }}>
-    <img src="/src/logos/facebook.png" className="h-12 w-12 z-20 md:mx-auto" />
-    <img src="/src/logos/instagram.png" className="h-12 w-12 z-20 md:mx-auto" />
-    <img src="/src/logos/snapchat.png" className="h-12 w-12 z-20 md:mx-auto" />
-    <img src="/src/logos/twitter.png" className="h-12 w-12 z-20 md:mx-auto" />
-  </div>
+<div className="flex justify-center align-center mx-auto gap-20 z-10 relative" style={{ top: '50px' }}>
+ <img src={facebookLogo} className="h-12 w-12 z-20 md:mx-auto" />
+ <img src={instagramLogo} className="h-12 w-12 z-20 md:mx-auto" />
+ <img src={snapchatLogo} className="h-12 w-12 z-20 md:mx-auto" />
+ <img src={twitterLogo} className="h-12 w-12 z-20 md:mx-auto" />
+</div>
+
   <svg width="100%" height="100" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill="#00040f">
           <animate
