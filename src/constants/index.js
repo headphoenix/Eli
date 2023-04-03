@@ -1,4 +1,7 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import planet1 from '../public/planet-01.png';
+import planet2 from '../public/planet-02.png';
+import planet3 from '../public/planet-03.png';
 
 export const navLinks = [
   {
@@ -199,17 +202,17 @@ export const clients = [
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/src/public/planet-01.png',
+    imgUrl: planet1,
     title: 'The Dome',
   },
   {
     id: 'world-2',
-    imgUrl: '/src/public/planet-02.png',
+    imgUrl: planet2,
     title: 'The Garden',
   },
   {
     id: 'world-3',
-    imgUrl: '/src/public/planet-03.png',
+    imgUrl: planet3,
     title: 'The Conference Room',
   },
 ];
